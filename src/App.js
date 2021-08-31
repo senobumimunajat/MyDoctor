@@ -1,14 +1,8 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import {GetStarted, Splash} from './pages';
 
 const App = () => {
-  return (
-    <View>
-      <Text>Welcome App </Text>
-    </View>
-  )
-}
+  return <GetStarted />;
+};
 
-export default App
-
-const styles = StyleSheet.create({})
+export default App;
